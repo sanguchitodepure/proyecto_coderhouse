@@ -1,0 +1,46 @@
+.contacto{
+    margin-top: 20px;
+    flex-basis: 45%;
+}
+.contacto form{
+   display: grid;
+   grid-template-rows: 2rem 2rem 2rem;
+   grid-template-columns: auto auto;
+   align-content: center;   
+   grid-gap:0.7rem
+} 
+.contacto #nombre {
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+.contacto #emailContacto{
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+.contacto textarea{
+    grid-row: 1/4;
+    grid-column: 2/3;
+}
+.contacto button {  
+    grid-row: 3/4;
+    grid-column: 1/2;
+    justify-self: start;
+}
+.boton1{
+    padding: 0.4rem;
+    border-color:#68ccfa;
+    background-color: #68ccfa;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 0.80rem;
+    font-family: 'Inconsolata', monospace;
+}
+.boton1:hover{
+    border-color: white;  
+    color: white;  
+    background-color: black;
+}
+.display-2{
+    margin-top: 20px;
+}

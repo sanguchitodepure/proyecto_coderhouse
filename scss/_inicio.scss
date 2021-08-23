@@ -1,0 +1,167 @@
+#carouselExampleControls{
+    margin-top: 30px;
+}
+.portadaMadre{
+    margin-top: 50px;
+}
+
+$portadas: 1,2;
+
+@each $numeroPortada in $portadas {
+    
+    .portada__#{$numeroPortada}{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+        max-width: 1280px;
+        margin: auto;
+           
+    }  
+    .portada__#{$numeroPortada} a{
+        position: relative;
+        display: block;
+    } 
+    .portada__#{$numeroPortada} .portada__texto{
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    color: #fff;
+    text-align: center;
+    font-size: 1.5rem;
+    }
+    .portada__#{$numeroPortada} .portada__texto h2{
+        font-size: 1.8em;
+        font-weight: 600;
+        line-height: 1;
+        color:#fff;
+        background-color:#333;
+    }
+    .portada__#{$numeroPortada} .portada__texto p{
+        color:#333;
+        background-color:#fff;
+        padding: 7px 15px;
+    }
+    .portada__#{$numeroPortada} img:hover{
+        filter: brightness(1.2);
+    }
+}
+.portada__1 img{
+    max-width: 100%;
+    height: auto;
+    border: 0;
+}
+.portada__2 img{
+    width: 70%;
+    height: auto;
+    border: 0;
+   justify-items: center;
+   margin-top: 20px;
+   
+}
+.portada__1 img{
+    max-width: 100%;
+    height: auto;
+    border: 0;
+    align-content: center;
+}
+
+footer{
+    color: rgb(255, 255, 255);
+}
+@media(min-width:768px)
+{
+    .formulario{
+        margin: auto;
+        width: 500px;
+        margin-top: 110px;
+        border-radius: 2%;
+    }
+}
+@media(max-width:768px)
+{
+    .formulario{
+        margin: auto;
+        width: 400px;
+        margin-top: 90px;
+        border-radius: 2%;
+    }
+}
+@media(max-width:560px)
+{
+    .formulario{
+        margin: auto;
+        width: 350px;
+        margin-top: 60px;
+        border-radius: 2%;
+    }
+
+    header nav ul{
+        display:block;
+        padding-top: 55px;
+        width: 100px;
+    }
+    header{
+        background:inherit;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding-right: 180px;
+        height: 150px;
+    }
+    .logo{
+        margin-left: 10px;
+        position:relative;
+    }
+    .portada__1 {
+        display: n;
+        grid-template-columns: repeat(1,1fr);
+        }
+    .portada__2 {
+        display: n;
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+    
+    .logopor{
+     display: none;
+    }
+}
+@media(min-width:769px){
+    .portada__2 img{
+        width: 628px;
+        height: 390px;
+    }
+}
+
+@media(max-width:1024px){
+    .portada__2 img{
+        width: 494px;
+        height: 300px;
+    }
+}
+@media(max-width:768px){
+    .portada__2 img{
+        width: 366px;
+        height: 230px;
+    }
+}
+
+@media(max-width:425px){
+    .portada__2 img{
+        width: 409px;
+        height: 245px;
+    }
+}
+@media(max-width:375px){
+    .portada__2 img{
+        width: 359px;
+        height: 215px;
+    }
+}
+@media(max-width:320px){
+    .portada__2 img{
+        width: 304px;
+        height: 181px;
+    }
+}

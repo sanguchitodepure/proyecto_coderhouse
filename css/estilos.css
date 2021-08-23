@@ -1,0 +1,477 @@
+* {
+  box-sizing: border-box; }
+
+nav ul li {
+  list-style: none;
+  margin-left: 75px;
+  padding: 12px 0;
+  position: relative;
+  margin-top: 15px; }
+
+.foo {
+  color: #f8f8f8;
+  text-decoration: none;
+  font-weight: bold; }
+
+.foo::before {
+  display: block;
+  width: 0%;
+  background: #f1f1f1;
+  height: 5px;
+  top: 0;
+  position: absolute;
+  content: ""; }
+
+.foo:hover::before {
+  width: 100%; }
+
+header {
+  background-color: #607c92;
+  font-size: 20px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  width: 100%;
+  height: 75px;
+  clear: both;
+  display: table;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative; }
+
+header li {
+  padding: 0 0.5rem;
+  list-style: none; }
+
+header nav {
+  font-size: 1.2rem; }
+
+header nav ul {
+  display: flex; }
+
+.logo {
+  width: 82px;
+  height: 80px;
+  top: 5px;
+  left: 50px; }
+
+.logo:hover {
+  width: 100px;
+  height: 100px; }
+
+.logoimg {
+  width: 30%;
+  height: 30%; }
+
+.logopor {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+main {
+  margin-top: 5px;
+  background-image: url(https://www.xtrafondos.com/descargar.php?id=3301&resolucion=3840x2160);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  margin-top: 30px; }
+
+h1, h2, p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+#articulos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-content: center; }
+
+article, aside {
+  background-color: #c0ffff;
+  padding: 60px;
+  margin: 18px;
+  width: 100px;
+  height: 50px;
+  text-align: center; }
+
+article, aside {
+  flex: 1;
+  padding: 1rem;
+  margin: 1px; }
+
+.salto {
+  height: 1000px; }
+
+.separador {
+  height: 20px; }
+
+body {
+  background: #bdc3c7;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2c3e50, #bdc3c7);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  margin-left: 5px;
+  margin-right: 5px; }
+
+* {
+  box-sizing: border-box; }
+
+.contenedor {
+  width: 100%;
+  padding: 15px; }
+
+.formulario {
+  background-color: white;
+  padding: 3px;
+  margin-top: 150px; }
+
+.textor {
+  text-align: center;
+  color: #1a2537;
+  font-size: 40px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+
+input[type="text"],
+input[type="password"] {
+  font-size: 20px;
+  width: 82%;
+  padding: 10px;
+  border: none; }
+
+.input-contenedor {
+  margin-bottom: 15px;
+  border: 1px solid #aaa; }
+
+i {
+  min-width: 50px;
+  text-align: center;
+  color: solid #fff; }
+
+.boton {
+  border: none;
+  width: 100%;
+  color: white;
+  font-size: 20px;
+  background: #1a2537;
+  padding: 15px 20px;
+  border-radius: 5px;
+  cursor: pointer; }
+
+.boton:hover {
+  background: cadetblue; }
+
+.pr {
+  text-align: center; }
+
+.iniciar {
+  text-decoration: none;
+  color: #1a2537;
+  font-weight: 600; }
+
+.iniciar:hover {
+  color: cadetblue; }
+
+.resgistrar {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  text-align: justify;
+  background-color: #4184b1;
+  border-style: solid;
+  border-radius: 5px;
+  width: 400px;
+  height: 235px;
+  margin-left: 20px;
+  margin-top: 30px;
+  padding-left: 10px;
+  padding-top: 10px; }
+
+#carouselExampleControls {
+  margin-top: 30px; }
+
+.portadaMadre {
+  margin-top: 50px; }
+
+.portada__1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  max-width: 1280px;
+  margin: auto; }
+
+.portada__1 a {
+  position: relative;
+  display: block; }
+
+.portada__1 img {
+  max-width: 100%;
+  height: auto;
+  border: 0; }
+
+.portada__1 img {
+  max-width: 100%;
+  height: auto;
+  border: 0;
+  align-content: center; }
+
+.portada__1 img:hover {
+  filter: brightness(1.2); }
+
+.portada__1 .portada__texto {
+  position: absolute;
+  bottom: 15%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  color: #fff;
+  text-align: center;
+  font-size: 1.5rem; }
+
+.portada__1 .portada__texto h2 {
+  font-size: 1.8em;
+  font-weight: 600;
+  line-height: 1;
+  color: #fff;
+  background-color: #333; }
+
+.portada__1 .portada__texto p {
+  color: #333;
+  background-color: #fff;
+  padding: 7px 15px; }
+
+.portada__2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  max-width: 1280px;
+  margin: auto; }
+
+.portada__2 a {
+  position: relative;
+  display: block; }
+
+.portada__2 img {
+  width: 70%;
+  height: auto;
+  border: 0;
+  justify-items: center;
+  margin-top: 20px; }
+
+.portada__2 img:hover {
+  filter: brightness(1.2); }
+
+.portada__2 .portada__texto {
+  position: absolute;
+  bottom: 15%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  color: #fff;
+  text-align: center;
+  font-size: 1.5rem; }
+
+.portada__2 .portada__texto h2 {
+  font-size: 1.8em;
+  font-weight: 600;
+  line-height: 1;
+  color: #fff;
+  background-color: #333; }
+
+.portada__2 .portada__texto p {
+  color: #333;
+  background-color: #fff;
+  padding: 7px 15px; }
+
+footer {
+  color: white; }
+
+@media (min-width: 768px) {
+  .formulario {
+    margin: auto;
+    width: 500px;
+    margin-top: 110px;
+    border-radius: 2%; } }
+
+@media (max-width: 768px) {
+  .formulario {
+    margin: auto;
+    width: 400px;
+    margin-top: 90px;
+    border-radius: 2%; } }
+
+@media (max-width: 560px) {
+  .formulario {
+    margin: auto;
+    width: 350px;
+    margin-top: 60px;
+    border-radius: 2%; }
+  header nav ul {
+    display: block;
+    padding-top: 55px;
+    width: 100px; }
+  header {
+    background: inherit;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 180px;
+    height: 150px; }
+  .logo {
+    margin-left: 10px;
+    position: relative; }
+  .portada__1 {
+    display: n;
+    grid-template-columns: repeat(1, 1fr); }
+  .portada__2 {
+    display: n;
+    grid-template-columns: repeat(1, 1fr); }
+  .logopor {
+    display: none; } }
+
+@media (min-width: 769px) {
+  .portada__2 img {
+    width: 628px;
+    height: 390px; } }
+
+@media (max-width: 1024px) {
+  .portada__2 img {
+    width: 494px;
+    height: 300px; } }
+
+@media (max-width: 768px) {
+  .portada__2 img {
+    width: 366px;
+    height: 230px; } }
+
+@media (max-width: 425px) {
+  .portada__2 img {
+    width: 409px;
+    height: 245px; } }
+
+@media (max-width: 375px) {
+  .portada__2 img {
+    width: 359px;
+    height: 215px; } }
+
+@media (max-width: 320px) {
+  .portada__2 img {
+    width: 304px;
+    height: 181px; } }
+
+.botoncheckout {
+  font-size: 16px;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 8px;
+  background-color: white;
+  color: black;
+  border: 2px solid #008CBA;
+  /* Green */
+  transition-duration: 0.4s;
+  position: absolute;
+  right: 15px;
+  bottom: 15px; }
+
+.botoncheckout:hover {
+  background-color: #008CBA;
+  /* Blue */
+  color: white; }
+
+.tcontent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  border: 1px;
+  margin-top: 50px; }
+
+.tcontent__pcontent {
+  margin: 20px;
+  padding: 2px 16px;
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+  background-color: white; }
+
+.tcontent__pcontent:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); }
+
+.tcontent__pcontent img {
+  width: 300px;
+  height: 325px; }
+
+.tcontent__pcontent h1 {
+  margin-bottom: 0px;
+  margin-left: 15px; }
+
+.botont {
+  font-size: 16px;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 8px;
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
+  /* Green */
+  transition-duration: 0.4s;
+  position: absolute;
+  right: 15px;
+  bottom: 5px; }
+
+.botont:hover {
+  background-color: #4CAF50;
+  /* Green */
+  color: white; }
+
+.accesorios {
+  margin-top: 5px;
+  background-image: url(https://www.xtrafondos.com/descargar.php?id=3301&resolucion=3840x2160);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  margin-top: 30px; }
+
+.TituloT {
+  margin-top: 20px; }
+
+.contacto {
+  margin-top: 20px;
+  flex-basis: 45%; }
+
+.contacto form {
+  display: grid;
+  grid-template-rows: 2rem 2rem 2rem;
+  grid-template-columns: auto auto;
+  align-content: center;
+  grid-gap: 0.7rem; }
+
+.contacto #nombre {
+  grid-row: 1/2;
+  grid-column: 1/2; }
+
+.contacto #emailContacto {
+  grid-row: 2/3;
+  grid-column: 1/2; }
+
+.contacto textarea {
+  grid-row: 1/4;
+  grid-column: 2/3; }
+
+.contacto button {
+  grid-row: 3/4;
+  grid-column: 1/2;
+  justify-self: start; }
+
+.boton1 {
+  padding: 0.4rem;
+  border-color: #68ccfa;
+  background-color: #68ccfa;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 0.80rem;
+  font-family: 'Inconsolata', monospace; }
+
+.boton1:hover {
+  border-color: white;
+  color: white;
+  background-color: black; }
+
+.display-2 {
+  margin-top: 20px; }

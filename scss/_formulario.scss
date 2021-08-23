@@ -1,0 +1,74 @@
+
+* {
+    box-sizing: border-box;
+}
+.contenedor{
+    width: 100%;
+    padding: 15px;
+}
+.formulario{
+    background-color: white;
+    padding: 3px;
+    margin-top: 150px;
+    
+}
+.textor{
+    text-align: center;
+    color: #1a2537;
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+input[type="text"],
+input[type="password"]{
+    font-size: 20px;
+    width: 82%;
+    padding: 10px;
+    border: none;
+}
+.input-contenedor{
+    margin-bottom: 15px;
+    border: 1px solid #aaa;
+}
+i{
+    min-width: 50px;
+    text-align: center;
+    color: solid #fff;
+}
+.boton{
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background: #1a2537;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.boton:hover{
+    background: cadetblue;
+}
+.pr{
+    text-align: center;
+}
+.iniciar{
+    text-decoration: none;
+    color: #1a2537;
+    font-weight: 600;
+}
+.iniciar:hover{
+    color: cadetblue;
+}
+.resgistrar{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  text-align: justify;
+  background-color: rgb(65, 132, 177);
+  border-style: solid;
+  border-radius: 5px; 
+  width: 400px;
+  height: 235px;
+  margin-left: 20px;
+  margin-top: 30px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
